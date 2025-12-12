@@ -70,3 +70,16 @@
   transform: scale(1.05);      /* 少し拡大して光る */
   filter: drop-shadow(0 0 20px #21c7ff);
 }
+
+.cyber-header {
+  position: relative;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border-bottom: 2px solid #21c7ff;
+  box-shadow: 0 0 30px rgba(33,199,255,0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
