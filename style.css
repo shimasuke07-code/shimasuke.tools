@@ -59,3 +59,14 @@
   text-shadow: 0 0 8px var(--neon-blue);
 }
 
+.logo {
+  height: 40px;               /* 高さを調整 */
+  object-fit: contain;         /* 縦横比を保つ */
+  filter: drop-shadow(0 0 10px #21c7ff); /* ネオン風の影を付ける */
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.05);      /* 少し拡大して光る */
+  filter: drop-shadow(0 0 20px #21c7ff);
+}
