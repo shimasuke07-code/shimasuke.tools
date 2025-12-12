@@ -65,3 +65,24 @@ footer {
     transform: translateY(0);
   }
 }
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.tool-card {
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.tool-card:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-5px);
+}
